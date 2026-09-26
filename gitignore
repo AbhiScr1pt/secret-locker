@@ -1,0 +1,14 @@
+# Never commit your actual vault or any secrets
+myvault.dat
+vault_meta.json
+smtp_config.json
+vault_encrypted/
+vault_plain/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
+Thumbs.db
